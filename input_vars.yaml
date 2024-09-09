@@ -1,0 +1,24 @@
+---
+# Case 0: Sample system - tridiagonal matrix
+case_name: Sample tridiagonal
+NUM_QUBITS: 2       # Numer of qubits to determine size of linear system of quations being solved. A matrix size = 2^NUM_QUBITS.
+savedir: models     # dir to save circuit and results
+savefilename: "{savedir}/sample_HHL"      # filename for saving data
+
+---
+# Case 1: Variables for Hele-Shaw flow
+case_name: Hele-Shaw
+P_in: 200            # pressure in
+P_out: 0             # pressure out
+U_top: 0             # velocity at top
+U_bottom: 0          # velocity at bottom
+L: 1                 # length of channel
+D: 1                 # width/height of channel
+mu: 1                # fluid viscosity
+rho: 1               # fluid density
+nx: 3                # number of grid points in the x (horizontal) direction
+ny: 3                # number of grid points in the y (vertical/span-wise) direction
+var: velocity        # which variable to solve for? pressure or velocity
+savedir: models      # dir to save circuit and results
+savefilename: "{savedir}/2DHS_HHL_fulldata_{var}_nx{nx}_ny{ny}"   # filename for saving data
+filename_pressure: "{savedir}/2DHS_HHL_fulldata_pressure_nx{nx}_ny{ny}_metadata.pkl"   # filename of pressure solution - for running velocity using HHL pressure soluiton

@@ -1,0 +1,9 @@
+PyYAML==6.0.1
+qiskit==0.44.1
+qiskit-aer==0.12.1
+qiskit-ibmq-provider==0.20.2
+qiskit-ibm-runtime==0.17.0
+qiskit-terra==0.25.1
+quantum_linear_solvers @ git+https://github.com/anedumla/quantum_linear_solvers@08bf4f6673308568b5654e5d3fde9f8df5d887d7
+jupyterlab==4.2.5
+matplotlib==3.9.2
