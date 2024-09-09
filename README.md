@@ -2,10 +2,12 @@
 
 A sample implementation of solving linear system of equations using [Qiskit's HHL implementation](https://learn.qiskit.org/course/ch-applications/solving-linear-systems-of-equations-using-hhl-and-its-qiskit-implementation). The fluid flow use-cases are following the work of [Bharadwaj & Srinivasan (2020)](https://www.sto.nato.int/publications/STO%20Educational%20Notes/STO-EN-AVT-377/EN-AVT-377-01.pdf). The implementations are using python scripts and Jupyter notebooks which use Quiskit libraries. See [Qiskit](https://qiskit.org/documentation/getting_started.html) it get started with installation to local conda environments. Or run on [IBM quantum-computing](https://quantum-computing.ibm.com/) platform.
 
+* Reference: M. Gopalakrishnan Meena, K. C. Gottiparthi, J. Lietz, A. Georgiadou, and E. A. Coello Pérez, "Solving the Hele-Shaw flow using the Harrow-Hassidim-Lloyd algorithm on superconducting devices: A study of efficiency and challenges," 2024
+
 * Contributors:
-      * Murali Gopalakrishnan Meena (Oak Ridge National Laboratory)
-      * Kalyan Gottiparthi (Oak Ridge National Laboratory)
-      * Justin Lietz (NVIDIA)
+     * Murali Gopalakrishnan Meena (Oak Ridge National Laboratory)
+     * Kalyan Gottiparthi (Oak Ridge National Laboratory)
+     * Justin Lietz (Oak Ridge National Laboratory; Now at NVIDIA)
 
 # Installation
 
