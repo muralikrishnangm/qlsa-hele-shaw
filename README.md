@@ -242,6 +242,8 @@ A sample implementation of solving linear system of equations using [Qiskit's HH
 
 # Jupyter notebooks for visualizing results
 
+Model outputs and data needed for the plotting routines are provided here: [10.5281/zenodo.13738192](https://doi.org/10.5281/zenodo.13738192)
+
 * [plot_Hele-Shaw.ipynb](plot_Hele-Shaw.ipynb): visualizing the implementation of Qiskit's HHL for solving 2D Hele-Shaw flow problem.
 * [plot_errormitigation.ipynb](plot_errormitigation.ipynb): visualizing the results of the error modeling and mitigation/suppression studies.
 * [plot_metrics.ipynb](plot_metrics.ipynb): visualizing the computational cost and other metrics with varying system size.
